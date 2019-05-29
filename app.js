@@ -1,3 +1,4 @@
+
 function compile() {
     var html = document.getElementById("html");
     var css = document.getElementById("css");
@@ -18,5 +19,7 @@ function compile() {
       code.close();
     };
   }
-  
-  compile();
+compile();  
+function toggleSidebar(){
+    document.getElementById("sidebar").classList.toggle('active');
+}
